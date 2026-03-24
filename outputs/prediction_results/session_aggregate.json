@@ -1,0 +1,96 @@
+{
+  "total_frames": 3998,
+  "avg_overall": 76.6,
+  "grade_distribution": {
+    "D": 454,
+    "A": 1468,
+    "C": 932,
+    "B": 968,
+    "F": 176
+  },
+  "phase_distribution": {
+    "set": 80,
+    "follow_through": 2054,
+    "not_shooting": 185,
+    "release": 1330,
+    "loading": 349
+  },
+  "per_metric": {
+    "elbow_angle": {
+      "mean": 129.55,
+      "std": 38.0,
+      "min": 0.48,
+      "max": 179.87,
+      "ideal_range": [
+        80,
+        100
+      ]
+    },
+    "knee_angle": {
+      "mean": 147.63,
+      "std": 47.38,
+      "min": 0.19,
+      "max": 179.96,
+      "ideal_range": [
+        100,
+        130
+      ]
+    },
+    "shoulder_angle": {
+      "mean": 61.6,
+      "std": 21.65,
+      "min": 0.32,
+      "max": 89.99,
+      "ideal_range": [
+        45,
+        75
+      ]
+    },
+    "wrist_elbow_vertical": {
+      "mean": 25.01,
+      "std": 17.95,
+      "min": 0.01,
+      "max": 89.94,
+      "ideal_range": [
+        0,
+        20
+      ]
+    },
+    "hip_knee_alignment": {
+      "mean": 0.03,
+      "std": 0.03,
+      "min": 0.0,
+      "max": 0.33,
+      "ideal_range": [
+        0.0,
+        0.08
+      ]
+    }
+  },
+  "top_issues": [
+    {
+      "issue": "Arm too low \u2014 raise your elbow higher for better arc",
+      "count": 778
+    },
+    {
+      "issue": "Over-bent knees \u2014 losing power transfer upward",
+      "count": 644
+    },
+    {
+      "issue": "Knee bend is ideal \u2014 legs driving the shot correctly",
+      "count": 599
+    }
+  ],
+  "consistency": {
+    "elbow_angle": 8.7,
+    "knee_angle": 4.6,
+    "shoulder_angle": 44.0,
+    "wrist_elbow_vertical": 45.4,
+    "hip_knee_alignment": 93.1
+  },
+  "recommendations": [
+    "Work on Elbow angle: Chicken wing elbow \u2014 arm flares, reducing arc and accuracy",
+    "Work on Knee bend: Legs too straight \u2014 shot relies on arms only, loses range",
+    "Work on Shoulder elevation: Shoulder over-elevated \u2014 creates tension and side-spin risk"
+  ]
+}

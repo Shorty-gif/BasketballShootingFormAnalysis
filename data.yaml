@@ -1,0 +1,14 @@
+# data.yaml
+# Place at PROJECT ROOT (same level as dataset/, main.py, yolov8n.pt)
+# Run convert_annotations.py first to generate labels/ folders.
+
+path: dataset        # root of the dataset folder
+
+train: train/images  # relative to path
+val:   valid/images  # relative to path
+test:  test/images   # relative to path
+
+nc: 1                # number of classes
+
+names:
+  - shooting         # class 0

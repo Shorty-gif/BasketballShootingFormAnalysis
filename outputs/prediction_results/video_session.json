@@ -1,0 +1,2454 @@
+{
+  "session": {
+    "total_frames": 31,
+    "avg_overall": 65.3,
+    "grade_distribution": {
+      "D": 9,
+      "C": 9,
+      "B": 7,
+      "F": 4,
+      "A": 2
+    },
+    "phase_distribution": {
+      "loading": 11,
+      "release": 16,
+      "follow_through": 4
+    },
+    "per_metric": {
+      "elbow_angle": {
+        "mean": 92.93,
+        "std": 43.15,
+        "min": 12.22,
+        "max": 179.42,
+        "ideal_range": [
+          80,
+          100
+        ]
+      },
+      "knee_angle": {
+        "mean": 160.06,
+        "std": 19.88,
+        "min": 120.04,
+        "max": 179.79,
+        "ideal_range": [
+          100,
+          130
+        ]
+      },
+      "shoulder_angle": {
+        "mean": 48.23,
+        "std": 27.54,
+        "min": 0.18,
+        "max": 89.12,
+        "ideal_range": [
+          45,
+          75
+        ]
+      },
+      "wrist_elbow_vertical": {
+        "mean": 42.81,
+        "std": 16.61,
+        "min": 11.75,
+        "max": 76.29,
+        "ideal_range": [
+          0,
+          20
+        ]
+      },
+      "hip_knee_alignment": {
+        "mean": 0.02,
+        "std": 0.01,
+        "min": 0.0,
+        "max": 0.04,
+        "ideal_range": [
+          0.0,
+          0.08
+        ]
+      }
+    },
+    "top_issues": [
+      {
+        "issue": "Arm too low \u2014 raise your elbow higher for better arc",
+        "count": 11
+      },
+      {
+        "issue": "Wrist not above elbow \u2014 ball will drift sideways",
+        "count": 9
+      },
+      {
+        "issue": "Arm at max elevation \u2014 normal at follow-through",
+        "count": 3
+      }
+    ],
+    "consistency": {
+      "elbow_angle": 6.5,
+      "knee_angle": 16.1,
+      "shoulder_angle": 35.5,
+      "wrist_elbow_vertical": 9.7,
+      "hip_knee_alignment": 100.0
+    },
+    "recommendations": [
+      "Work on Elbow angle: Chicken wing elbow \u2014 arm flares, reducing arc and accuracy",
+      "Work on Knee bend: Legs too straight \u2014 shot relies on arms only, loses range",
+      "Work on Shoulder elevation: Shoulder over-elevated \u2014 creates tension and side-spin risk"
+    ]
+  },
+  "frames": [
+    {
+      "side": "left",
+      "phase": "loading",
+      "camera_angle": "front",
+      "elbow_angle": 79.46,
+      "knee_angle": 156.73,
+      "shoulder_angle": 63.94,
+      "wrist_elbow_vertical": 74.48,
+      "hip_knee_alignment": 0.0251,
+      "wrist_height_norm": 0.6991,
+      "scores": {
+        "elbow_angle": 72,
+        "knee_angle": 26,
+        "shoulder_angle": 53,
+        "wrist_elbow_vertical": 32,
+        "hip_knee_alignment": 95
+      },
+      "overall_score": 56,
+      "grade": "D",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm at max elevation \u2014 normal at follow-through",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 63.7,
+        "xgb_explanation": "Average form \u2014 focus on: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Dirk Nowitzki",
+            "team": "Retired",
+            "style": "one legged fadeaway",
+            "similarity": 17.2,
+            "distance": 14.501,
+            "notes": "Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+            "advice": [
+              "elbow is 18.5deg lower than Dirk Nowitzki at set point",
+              "shoulder is 14.1deg lower than Dirk Nowitzki at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 16.2,
+            "distance": 14.992,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 25.5deg lower than Giannis Antetokounmpo at set point",
+              "knee is 31.7deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Nikola Jokic",
+            "team": "Denver Nuggets",
+            "style": "unorthodox but effective",
+            "similarity": 15.7,
+            "distance": 15.237,
+            "notes": "Unconventional push shot but high release point works",
+            "advice": [
+              "elbow is 28.5deg lower than Nikola Jokic at set point",
+              "knee is 42.7deg higher than Nikola Jokic at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Dirk Nowitzki (17.2% match). Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+        "knn_best_match": "Dirk Nowitzki"
+      }
+    },
+    {
+      "side": "left",
+      "phase": "loading",
+      "camera_angle": "front",
+      "elbow_angle": 78.67,
+      "knee_angle": 149.52,
+      "shoulder_angle": 64.46,
+      "wrist_elbow_vertical": 75.79,
+      "hip_knee_alignment": 0.0322,
+      "wrist_height_norm": 0.6993,
+      "scores": {
+        "elbow_angle": 70,
+        "knee_angle": 40,
+        "shoulder_angle": 51,
+        "wrist_elbow_vertical": 31,
+        "hip_knee_alignment": 93
+      },
+      "overall_score": 57,
+      "grade": "D",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm at max elevation \u2014 normal at follow-through",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 61.8,
+        "xgb_explanation": "Average form \u2014 focus on: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Dirk Nowitzki",
+            "team": "Retired",
+            "style": "one legged fadeaway",
+            "similarity": 17.2,
+            "distance": 14.732,
+            "notes": "Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+            "advice": [
+              "elbow is 19.3deg lower than Dirk Nowitzki at set point",
+              "shoulder is 13.5deg lower than Dirk Nowitzki at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 16.1,
+            "distance": 15.301,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 26.3deg lower than Giannis Antetokounmpo at set point",
+              "knee is 24.5deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Nikola Jokic",
+            "team": "Denver Nuggets",
+            "style": "unorthodox but effective",
+            "similarity": 15.7,
+            "distance": 15.518,
+            "notes": "Unconventional push shot but high release point works",
+            "advice": [
+              "elbow is 29.3deg lower than Nikola Jokic at set point",
+              "knee is 35.5deg higher than Nikola Jokic at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Dirk Nowitzki (17.2% match). Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+        "knn_best_match": "Dirk Nowitzki"
+      }
+    },
+    {
+      "side": "left",
+      "phase": "loading",
+      "camera_angle": "front",
+      "elbow_angle": 80.35,
+      "knee_angle": 149.52,
+      "shoulder_angle": 66.64,
+      "wrist_elbow_vertical": 76.29,
+      "hip_knee_alignment": 0.03,
+      "wrist_height_norm": 0.6987,
+      "scores": {
+        "elbow_angle": 74,
+        "knee_angle": 40,
+        "shoulder_angle": 46,
+        "wrist_elbow_vertical": 30,
+        "hip_knee_alignment": 94
+      },
+      "overall_score": 58,
+      "grade": "D",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm at max elevation \u2014 normal at follow-through",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 62.6,
+        "xgb_explanation": "Average form \u2014 focus on: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Dirk Nowitzki",
+            "team": "Retired",
+            "style": "one legged fadeaway",
+            "similarity": 17.4,
+            "distance": 14.752,
+            "notes": "Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+            "advice": [
+              "elbow is 17.7deg lower than Dirk Nowitzki at set point",
+              "shoulder is 11.4deg lower than Dirk Nowitzki at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 16.0,
+            "distance": 15.43,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 24.7deg lower than Giannis Antetokounmpo at set point",
+              "knee is 24.5deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Nikola Jokic",
+            "team": "Denver Nuggets",
+            "style": "unorthodox but effective",
+            "similarity": 15.7,
+            "distance": 15.62,
+            "notes": "Unconventional push shot but high release point works",
+            "advice": [
+              "elbow is 27.7deg lower than Nikola Jokic at set point",
+              "knee is 35.5deg higher than Nikola Jokic at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Dirk Nowitzki (17.4% match). Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+        "knn_best_match": "Dirk Nowitzki"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "loading",
+      "camera_angle": "front",
+      "elbow_angle": 116.39,
+      "knee_angle": 128.33,
+      "shoulder_angle": 75.08,
+      "wrist_elbow_vertical": 48.69,
+      "hip_knee_alignment": 0.015,
+      "wrist_height_norm": 0.6793,
+      "scores": {
+        "elbow_angle": 82,
+        "knee_angle": 79,
+        "shoulder_angle": 29,
+        "wrist_elbow_vertical": 61,
+        "hip_knee_alignment": 97
+      },
+      "overall_score": 69,
+      "grade": "C",
+      "feedback": {
+        "elbow_angle": "Elbow flaring \u2014 reduces accuracy and arc",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm at max elevation \u2014 normal at follow-through",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 68.0,
+        "xgb_explanation": "Average form \u2014 focus on: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Dirk Nowitzki",
+            "team": "Retired",
+            "style": "one legged fadeaway",
+            "similarity": 19.8,
+            "distance": 9.103,
+            "notes": "Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+            "advice": [
+              "elbow is 18.4deg higher than Dirk Nowitzki at set point",
+              "knee is 16.7deg lower than Dirk Nowitzki at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 18.7,
+            "distance": 9.424,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 11.4deg higher than Giannis Antetokounmpo at set point",
+              "shoulder is 20.1deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Nikola Jokic",
+            "team": "Denver Nuggets",
+            "style": "unorthodox but effective",
+            "similarity": 18.5,
+            "distance": 9.488,
+            "notes": "Unconventional push shot but high release point works",
+            "advice": [
+              "elbow is 8.4deg higher than Nikola Jokic at set point",
+              "knee is 14.3deg higher than Nikola Jokic at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Dirk Nowitzki (19.8% match). Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+        "knn_best_match": "Dirk Nowitzki"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "loading",
+      "camera_angle": "front",
+      "elbow_angle": 111.97,
+      "knee_angle": 125.01,
+      "shoulder_angle": 71.14,
+      "wrist_elbow_vertical": 49.17,
+      "hip_knee_alignment": 0.019,
+      "wrist_height_norm": 0.6734,
+      "scores": {
+        "elbow_angle": 88,
+        "knee_angle": 84,
+        "shoulder_angle": 37,
+        "wrist_elbow_vertical": 60,
+        "hip_knee_alignment": 96
+      },
+      "overall_score": 74,
+      "grade": "C",
+      "feedback": {
+        "elbow_angle": "Elbow angle is ideal for this phase",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm at max elevation \u2014 normal at follow-through",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 70.0,
+        "xgb_explanation": "Good form \u2014 main area to refine: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 19.3,
+            "distance": 8.876,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "shoulder is 16.1deg higher than Giannis Antetokounmpo at set point",
+              "wrist tilt is 29.2deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Nikola Jokic",
+            "team": "Denver Nuggets",
+            "style": "unorthodox but effective",
+            "similarity": 19.1,
+            "distance": 8.95,
+            "notes": "Unconventional push shot but high release point works",
+            "advice": [
+              "shoulder is 13.1deg higher than Nikola Jokic at set point",
+              "wrist tilt is 27.2deg higher than Nikola Jokic at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Dirk Nowitzki",
+            "team": "Retired",
+            "style": "one legged fadeaway",
+            "similarity": 19.0,
+            "distance": 8.96,
+            "notes": "Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+            "advice": [
+              "elbow is 14.0deg higher than Dirk Nowitzki at set point",
+              "knee is 20.0deg lower than Dirk Nowitzki at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Giannis Antetokounmpo (19.3% match). Developed shooter \u2014 elbow still slightly wide but improving",
+        "knn_best_match": "Giannis Antetokounmpo"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "loading",
+      "camera_angle": "front",
+      "elbow_angle": 113.79,
+      "knee_angle": 120.04,
+      "shoulder_angle": 77.19,
+      "wrist_elbow_vertical": 53.4,
+      "hip_knee_alignment": 0.0271,
+      "wrist_height_norm": 0.6553,
+      "scores": {
+        "elbow_angle": 86,
+        "knee_angle": 89,
+        "shoulder_angle": 25,
+        "wrist_elbow_vertical": 52,
+        "hip_knee_alignment": 94
+      },
+      "overall_score": 70,
+      "grade": "C",
+      "feedback": {
+        "elbow_angle": "Elbow angle is ideal for this phase",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm at max elevation \u2014 normal at follow-through",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 67.1,
+        "xgb_explanation": "Average form \u2014 focus on: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Dirk Nowitzki",
+            "team": "Retired",
+            "style": "one legged fadeaway",
+            "similarity": 19.1,
+            "distance": 9.703,
+            "notes": "Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+            "advice": [
+              "elbow is 15.8deg higher than Dirk Nowitzki at set point",
+              "knee is 25.0deg lower than Dirk Nowitzki at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Nikola Jokic",
+            "team": "Denver Nuggets",
+            "style": "unorthodox but effective",
+            "similarity": 18.3,
+            "distance": 9.938,
+            "notes": "Unconventional push shot but high release point works",
+            "advice": [
+              "shoulder is 19.2deg higher than Nikola Jokic at set point",
+              "wrist tilt is 31.4deg higher than Nikola Jokic at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 17.8,
+            "distance": 10.124,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 8.8deg higher than Giannis Antetokounmpo at set point",
+              "shoulder is 22.2deg higher than Giannis Antetokounmpo at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Dirk Nowitzki (19.1% match). Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+        "knn_best_match": "Dirk Nowitzki"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "loading",
+      "camera_angle": "front",
+      "elbow_angle": 179.42,
+      "knee_angle": 120.94,
+      "shoulder_angle": 69.93,
+      "wrist_elbow_vertical": 20.62,
+      "hip_knee_alignment": 0.0318,
+      "wrist_height_norm": 0.6253,
+      "scores": {
+        "elbow_angle": 0,
+        "knee_angle": 89,
+        "shoulder_angle": 40,
+        "wrist_elbow_vertical": 91,
+        "hip_knee_alignment": 94
+      },
+      "overall_score": 53,
+      "grade": "D",
+      "feedback": {
+        "elbow_angle": "Elbow flaring \u2014 reduces accuracy and arc",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm at max elevation \u2014 normal at follow-through",
+        "wrist_elbow_vertical": "Wrist stacked above elbow \u2014 clean release axis",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 60.3,
+        "xgb_explanation": "Average form \u2014 focus on: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 23.0,
+            "distance": 5.475,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 79.4deg higher than LeBron James at set point",
+              "shoulder is 9.9deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 21.8,
+            "distance": 5.672,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 74.4deg higher than Giannis Antetokounmpo at set point",
+              "shoulder is 14.9deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Anthony Edwards",
+            "team": "Minnesota Timberwolves",
+            "style": "explosive scorer",
+            "similarity": 20.0,
+            "distance": 5.996,
+            "notes": "Powerful through the ball, strong leg drive",
+            "advice": [
+              "elbow is 82.4deg higher than Anthony Edwards at set point",
+              "wrist tilt is 6.6deg higher than Anthony Edwards at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to LeBron James (23.0% match). More elbow flare than optimal \u2014 compensates with power",
+        "knn_best_match": "LeBron James"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "loading",
+      "camera_angle": "front",
+      "elbow_angle": 109.0,
+      "knee_angle": 123.21,
+      "shoulder_angle": 45.24,
+      "wrist_elbow_vertical": 64.24,
+      "hip_knee_alignment": 0.0179,
+      "wrist_height_norm": 0.5759,
+      "scores": {
+        "elbow_angle": 90,
+        "knee_angle": 86,
+        "shoulder_angle": 96,
+        "wrist_elbow_vertical": 41,
+        "hip_knee_alignment": 96
+      },
+      "overall_score": 83,
+      "grade": "B",
+      "feedback": {
+        "elbow_angle": "Elbow angle is ideal for this phase",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm elevation is ideal for this phase \u2014 good arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 73.5,
+        "xgb_explanation": "Good form \u2014 main area to refine: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 20.0,
+            "distance": 11.783,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "shoulder is 9.8deg lower than Giannis Antetokounmpo at set point",
+              "wrist tilt is 44.2deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Nikola Jokic",
+            "team": "Denver Nuggets",
+            "style": "unorthodox but effective",
+            "similarity": 19.6,
+            "distance": 11.944,
+            "notes": "Unconventional push shot but high release point works",
+            "advice": [
+              "shoulder is 12.8deg lower than Nikola Jokic at set point",
+              "wrist tilt is 42.2deg higher than Nikola Jokic at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 17.5,
+            "distance": 12.785,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 9.0deg higher than LeBron James at set point",
+              "shoulder is 14.8deg lower than LeBron James at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Giannis Antetokounmpo (20.0% match). Developed shooter \u2014 elbow still slightly wide but improving",
+        "knn_best_match": "Giannis Antetokounmpo"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "loading",
+      "camera_angle": "front",
+      "elbow_angle": 17.63,
+      "knee_angle": 133.25,
+      "shoulder_angle": 42.61,
+      "wrist_elbow_vertical": 29.76,
+      "hip_knee_alignment": 0.0108,
+      "wrist_height_norm": 0.5395,
+      "scores": {
+        "elbow_angle": 0,
+        "knee_angle": 70,
+        "shoulder_angle": 99,
+        "wrist_elbow_vertical": 87,
+        "hip_knee_alignment": 97
+      },
+      "overall_score": 61,
+      "grade": "C",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm elevation is ideal for this phase \u2014 good arc",
+        "wrist_elbow_vertical": "Wrist stacked above elbow \u2014 clean release axis",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 55.2,
+        "xgb_explanation": "Average form \u2014 focus on: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 15.5,
+            "distance": 8.573,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 82.4deg lower than LeBron James at set point",
+              "shoulder is 17.4deg lower than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Klay Thompson",
+            "team": "Golden State Warriors",
+            "style": "catch and shoot",
+            "similarity": 15.1,
+            "distance": 8.668,
+            "notes": "Textbook catch-and-shoot, minimal dip, quick release",
+            "advice": [
+              "elbow is 67.4deg lower than Klay Thompson at set point",
+              "shoulder is 21.4deg lower than Klay Thompson at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Damian Lillard",
+            "team": "Milwaukee Bucks",
+            "style": "deep range pull-up",
+            "similarity": 15.0,
+            "distance": 8.715,
+            "notes": "Powerful leg drive, consistent elbow tuck on pull-ups",
+            "advice": [
+              "elbow is 68.4deg lower than Damian Lillard at set point",
+              "shoulder is 23.4deg lower than Damian Lillard at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to LeBron James (15.5% match). More elbow flare than optimal \u2014 compensates with power",
+        "knn_best_match": "LeBron James"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "loading",
+      "camera_angle": "front",
+      "elbow_angle": 12.22,
+      "knee_angle": 141.11,
+      "shoulder_angle": 38.74,
+      "wrist_elbow_vertical": 39.04,
+      "hip_knee_alignment": 0.011,
+      "wrist_height_norm": 0.5095,
+      "scores": {
+        "elbow_angle": 0,
+        "knee_angle": 56,
+        "shoulder_angle": 95,
+        "wrist_elbow_vertical": 77,
+        "hip_knee_alignment": 97
+      },
+      "overall_score": 56,
+      "grade": "D",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm elevation is ideal for this phase \u2014 good arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 49.9,
+        "xgb_explanation": "Needs work \u2014 primary issue: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 15.9,
+            "distance": 10.345,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 87.8deg lower than LeBron James at set point",
+              "shoulder is 21.3deg lower than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 15.5,
+            "distance": 10.501,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 92.8deg lower than Giannis Antetokounmpo at set point",
+              "knee is 16.1deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Anthony Edwards",
+            "team": "Minnesota Timberwolves",
+            "style": "explosive scorer",
+            "similarity": 14.4,
+            "distance": 10.901,
+            "notes": "Powerful through the ball, strong leg drive",
+            "advice": [
+              "elbow is 84.8deg lower than Anthony Edwards at set point",
+              "knee is 15.1deg higher than Anthony Edwards at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to LeBron James (15.9% match). More elbow flare than optimal \u2014 compensates with power",
+        "knn_best_match": "LeBron James"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "loading",
+      "camera_angle": "front",
+      "elbow_angle": 14.34,
+      "knee_angle": 147.06,
+      "shoulder_angle": 28.57,
+      "wrist_elbow_vertical": 47.08,
+      "hip_knee_alignment": 0.0066,
+      "wrist_height_norm": 0.4374,
+      "scores": {
+        "elbow_angle": 0,
+        "knee_angle": 45,
+        "shoulder_angle": 81,
+        "wrist_elbow_vertical": 63,
+        "hip_knee_alignment": 98
+      },
+      "overall_score": 49,
+      "grade": "D",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 44.5,
+        "xgb_explanation": "Needs work \u2014 primary issue: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 16.2,
+            "distance": 12.377,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 90.7deg lower than Giannis Antetokounmpo at set point",
+              "knee is 22.1deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 15.8,
+            "distance": 12.559,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 85.7deg lower than LeBron James at set point",
+              "knee is 15.1deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Paul Pierce",
+            "team": "Retired",
+            "style": "shot fake and rise",
+            "similarity": 14.6,
+            "distance": 13.105,
+            "notes": "Slightly unorthodox but effective elbow position",
+            "advice": [
+              "elbow is 81.7deg lower than Paul Pierce at set point",
+              "knee is 31.1deg higher than Paul Pierce at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Giannis Antetokounmpo (16.2% match). Developed shooter \u2014 elbow still slightly wide but improving",
+        "knn_best_match": "Giannis Antetokounmpo"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 43.25,
+      "knee_angle": 168.04,
+      "shoulder_angle": 8.65,
+      "wrist_elbow_vertical": 38.1,
+      "hip_knee_alignment": 0.0256,
+      "wrist_height_norm": 0.3925,
+      "scores": {
+        "elbow_angle": 6,
+        "knee_angle": 89,
+        "shoulder_angle": 0,
+        "wrist_elbow_vertical": 64,
+        "hip_knee_alignment": 95
+      },
+      "overall_score": 43,
+      "grade": "F",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 33.8,
+        "xgb_explanation": "Needs work \u2014 primary issue: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 16.4,
+            "distance": 13.121,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 61.8deg lower than Giannis Antetokounmpo at set point",
+              "knee is 43.0deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 15.4,
+            "distance": 13.589,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 56.8deg lower than LeBron James at set point",
+              "knee is 36.0deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Paul Pierce",
+            "team": "Retired",
+            "style": "shot fake and rise",
+            "similarity": 14.6,
+            "distance": 13.98,
+            "notes": "Slightly unorthodox but effective elbow position",
+            "advice": [
+              "elbow is 52.8deg lower than Paul Pierce at set point",
+              "knee is 52.0deg higher than Paul Pierce at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Giannis Antetokounmpo (16.4% match). Developed shooter \u2014 elbow still slightly wide but improving",
+        "knn_best_match": "Giannis Antetokounmpo"
+      }
+    },
+    {
+      "side": "left",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 58.61,
+      "knee_angle": 168.57,
+      "shoulder_angle": 0.18,
+      "wrist_elbow_vertical": 31.2,
+      "hip_knee_alignment": 0.0431,
+      "wrist_height_norm": 0.3382,
+      "scores": {
+        "elbow_angle": 37,
+        "knee_angle": 88,
+        "shoulder_angle": 0,
+        "wrist_elbow_vertical": 78,
+        "hip_knee_alignment": 91
+      },
+      "overall_score": 54,
+      "grade": "D",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 46.1,
+        "xgb_explanation": "Needs work \u2014 primary issue: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 16.0,
+            "distance": 13.903,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 46.4deg lower than Giannis Antetokounmpo at set point",
+              "knee is 43.6deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 15.1,
+            "distance": 14.376,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 41.4deg lower than LeBron James at set point",
+              "knee is 36.6deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Paul Pierce",
+            "team": "Retired",
+            "style": "shot fake and rise",
+            "similarity": 14.2,
+            "distance": 14.821,
+            "notes": "Slightly unorthodox but effective elbow position",
+            "advice": [
+              "elbow is 37.4deg lower than Paul Pierce at set point",
+              "knee is 52.6deg higher than Paul Pierce at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Giannis Antetokounmpo (16.0% match). Developed shooter \u2014 elbow still slightly wide but improving",
+        "knn_best_match": "Giannis Antetokounmpo"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 49.63,
+      "knee_angle": 177.49,
+      "shoulder_angle": 5.43,
+      "wrist_elbow_vertical": 45.79,
+      "hip_knee_alignment": 0.0116,
+      "wrist_height_norm": 0.2969,
+      "scores": {
+        "elbow_angle": 19,
+        "knee_angle": 67,
+        "shoulder_angle": 0,
+        "wrist_elbow_vertical": 49,
+        "hip_knee_alignment": 97
+      },
+      "overall_score": 41,
+      "grade": "F",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 29.9,
+        "xgb_explanation": "Needs work \u2014 primary issue: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 16.5,
+            "distance": 14.7,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 55.4deg lower than Giannis Antetokounmpo at set point",
+              "knee is 52.5deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 15.5,
+            "distance": 15.194,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 50.4deg lower than LeBron James at set point",
+              "knee is 45.5deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Paul Pierce",
+            "team": "Retired",
+            "style": "shot fake and rise",
+            "similarity": 14.6,
+            "distance": 15.697,
+            "notes": "Slightly unorthodox but effective elbow position",
+            "advice": [
+              "elbow is 46.4deg lower than Paul Pierce at set point",
+              "knee is 61.5deg higher than Paul Pierce at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Giannis Antetokounmpo (16.5% match). Developed shooter \u2014 elbow still slightly wide but improving",
+        "knn_best_match": "Giannis Antetokounmpo"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 78.03,
+      "knee_angle": 173.78,
+      "shoulder_angle": 16.03,
+      "wrist_elbow_vertical": 28.0,
+      "hip_knee_alignment": 0.0118,
+      "wrist_height_norm": 0.2539,
+      "scores": {
+        "elbow_angle": 85,
+        "knee_angle": 85,
+        "shoulder_angle": 0,
+        "wrist_elbow_vertical": 85,
+        "hip_knee_alignment": 97
+      },
+      "overall_score": 69,
+      "grade": "C",
+      "feedback": {
+        "elbow_angle": "Elbow angle is ideal for this phase",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist stacked above elbow \u2014 clean release axis",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 68.1,
+        "xgb_explanation": "Average form \u2014 focus on: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 15.7,
+            "distance": 11.662,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 27.0deg lower than Giannis Antetokounmpo at set point",
+              "knee is 48.8deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 15.4,
+            "distance": 11.762,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 22.0deg lower than LeBron James at set point",
+              "knee is 41.8deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Klay Thompson",
+            "team": "Golden State Warriors",
+            "style": "catch and shoot",
+            "similarity": 14.5,
+            "distance": 12.152,
+            "notes": "Textbook catch-and-shoot, minimal dip, quick release",
+            "advice": [
+              "knee is 51.8deg higher than Klay Thompson at set point",
+              "shoulder is 48.0deg lower than Klay Thompson at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Giannis Antetokounmpo (15.7% match). Developed shooter \u2014 elbow still slightly wide but improving",
+        "knn_best_match": "Giannis Antetokounmpo"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 110.44,
+      "knee_angle": 176.72,
+      "shoulder_angle": 34.73,
+      "wrist_elbow_vertical": 14.29,
+      "hip_knee_alignment": 0.0034,
+      "wrist_height_norm": 0.2119,
+      "scores": {
+        "elbow_angle": 80,
+        "knee_angle": 72,
+        "shoulder_angle": 35,
+        "wrist_elbow_vertical": 92,
+        "hip_knee_alignment": 99
+      },
+      "overall_score": 74,
+      "grade": "C",
+      "feedback": {
+        "elbow_angle": "Elbow flaring \u2014 reduces accuracy and arc",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist stacked above elbow \u2014 clean release axis",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 76.9,
+        "xgb_explanation": "Good form \u2014 main area to refine: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 20.0,
+            "distance": 6.358,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 10.4deg higher than LeBron James at set point",
+              "knee is 44.7deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 18.1,
+            "distance": 6.763,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "knee is 51.7deg higher than Giannis Antetokounmpo at set point",
+              "shoulder is 20.3deg lower than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Anthony Edwards",
+            "team": "Minnesota Timberwolves",
+            "style": "explosive scorer",
+            "similarity": 16.4,
+            "distance": 7.144,
+            "notes": "Powerful through the ball, strong leg drive",
+            "advice": [
+              "elbow is 13.4deg higher than Anthony Edwards at set point",
+              "knee is 50.7deg higher than Anthony Edwards at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to LeBron James (20.0% match). More elbow flare than optimal \u2014 compensates with power",
+        "knn_best_match": "LeBron James"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 119.81,
+      "knee_angle": 178.06,
+      "shoulder_angle": 41.56,
+      "wrist_elbow_vertical": 11.75,
+      "hip_knee_alignment": 0.0025,
+      "wrist_height_norm": 0.2068,
+      "scores": {
+        "elbow_angle": 64,
+        "knee_angle": 63,
+        "shoulder_angle": 49,
+        "wrist_elbow_vertical": 93,
+        "hip_knee_alignment": 99
+      },
+      "overall_score": 70,
+      "grade": "C",
+      "feedback": {
+        "elbow_angle": "Elbow flaring \u2014 reduces accuracy and arc",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist stacked above elbow \u2014 clean release axis",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 76.3,
+        "xgb_explanation": "Good form \u2014 main area to refine: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 22.6,
+            "distance": 5.367,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 19.8deg higher than LeBron James at set point",
+              "knee is 46.1deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 18.9,
+            "distance": 6.019,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 14.8deg higher than Giannis Antetokounmpo at set point",
+              "knee is 53.1deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Anthony Edwards",
+            "team": "Minnesota Timberwolves",
+            "style": "explosive scorer",
+            "similarity": 17.8,
+            "distance": 6.225,
+            "notes": "Powerful through the ball, strong leg drive",
+            "advice": [
+              "elbow is 22.8deg higher than Anthony Edwards at set point",
+              "knee is 52.1deg higher than Anthony Edwards at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to LeBron James (22.6% match). More elbow flare than optimal \u2014 compensates with power",
+        "knn_best_match": "LeBron James"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 118.34,
+      "knee_angle": 167.3,
+      "shoulder_angle": 45.74,
+      "wrist_elbow_vertical": 17.4,
+      "hip_knee_alignment": 0.0041,
+      "wrist_height_norm": 0.2323,
+      "scores": {
+        "elbow_angle": 66,
+        "knee_angle": 89,
+        "shoulder_angle": 58,
+        "wrist_elbow_vertical": 90,
+        "hip_knee_alignment": 99
+      },
+      "overall_score": 77,
+      "grade": "B",
+      "feedback": {
+        "elbow_angle": "Elbow flaring \u2014 reduces accuracy and arc",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist stacked above elbow \u2014 clean release axis",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 78.6,
+        "xgb_explanation": "Good form \u2014 main area to refine: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 27.1,
+            "distance": 3.911,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 18.3deg higher than LeBron James at set point",
+              "knee is 35.3deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 23.0,
+            "distance": 4.408,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 13.3deg higher than Giannis Antetokounmpo at set point",
+              "knee is 42.3deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Anthony Edwards",
+            "team": "Minnesota Timberwolves",
+            "style": "explosive scorer",
+            "similarity": 20.0,
+            "distance": 4.826,
+            "notes": "Powerful through the ball, strong leg drive",
+            "advice": [
+              "elbow is 21.3deg higher than Anthony Edwards at set point",
+              "knee is 41.3deg higher than Anthony Edwards at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to LeBron James (27.1% match). More elbow flare than optimal \u2014 compensates with power",
+        "knn_best_match": "LeBron James"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 118.77,
+      "knee_angle": 164.9,
+      "shoulder_angle": 51.27,
+      "wrist_elbow_vertical": 22.49,
+      "hip_knee_alignment": 0.0071,
+      "wrist_height_norm": 0.2175,
+      "scores": {
+        "elbow_angle": 66,
+        "knee_angle": 91,
+        "shoulder_angle": 70,
+        "wrist_elbow_vertical": 87,
+        "hip_knee_alignment": 98
+      },
+      "overall_score": 79,
+      "grade": "B",
+      "feedback": {
+        "elbow_angle": "Elbow flaring \u2014 reduces accuracy and arc",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist stacked above elbow \u2014 clean release axis",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 73.3,
+        "xgb_explanation": "Good form \u2014 main area to refine: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 30.3,
+            "distance": 3.357,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 18.8deg higher than LeBron James at set point",
+              "knee is 32.9deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 26.0,
+            "distance": 3.785,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 13.8deg higher than Giannis Antetokounmpo at set point",
+              "knee is 39.9deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Anthony Edwards",
+            "team": "Minnesota Timberwolves",
+            "style": "explosive scorer",
+            "similarity": 21.4,
+            "distance": 4.331,
+            "notes": "Powerful through the ball, strong leg drive",
+            "advice": [
+              "elbow is 21.8deg higher than Anthony Edwards at set point",
+              "knee is 38.9deg higher than Anthony Edwards at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to LeBron James (30.3% match). More elbow flare than optimal \u2014 compensates with power",
+        "knn_best_match": "LeBron James"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 118.52,
+      "knee_angle": 163.73,
+      "shoulder_angle": 51.38,
+      "wrist_elbow_vertical": 22.86,
+      "hip_knee_alignment": 0.0096,
+      "wrist_height_norm": 0.2266,
+      "scores": {
+        "elbow_angle": 66,
+        "knee_angle": 91,
+        "shoulder_angle": 70,
+        "wrist_elbow_vertical": 87,
+        "hip_knee_alignment": 98
+      },
+      "overall_score": 79,
+      "grade": "B",
+      "feedback": {
+        "elbow_angle": "Elbow flaring \u2014 reduces accuracy and arc",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist stacked above elbow \u2014 clean release axis",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 73.5,
+        "xgb_explanation": "Good form \u2014 main area to refine: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 30.6,
+            "distance": 3.29,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 18.5deg higher than LeBron James at set point",
+              "knee is 31.7deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 26.8,
+            "distance": 3.661,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 13.5deg higher than Giannis Antetokounmpo at set point",
+              "knee is 38.7deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Anthony Edwards",
+            "team": "Minnesota Timberwolves",
+            "style": "explosive scorer",
+            "similarity": 21.6,
+            "distance": 4.255,
+            "notes": "Powerful through the ball, strong leg drive",
+            "advice": [
+              "elbow is 21.5deg higher than Anthony Edwards at set point",
+              "knee is 37.7deg higher than Anthony Edwards at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to LeBron James (30.6% match). More elbow flare than optimal \u2014 compensates with power",
+        "knn_best_match": "LeBron James"
+      }
+    },
+    {
+      "side": "left",
+      "phase": "follow_through",
+      "camera_angle": "front",
+      "elbow_angle": 160.16,
+      "knee_angle": 179.09,
+      "shoulder_angle": 72.24,
+      "wrist_elbow_vertical": 37.6,
+      "hip_knee_alignment": 0.0119,
+      "wrist_height_norm": 0.234,
+      "scores": {
+        "elbow_angle": 99,
+        "knee_angle": 85,
+        "shoulder_angle": 95,
+        "wrist_elbow_vertical": 85,
+        "hip_knee_alignment": 97
+      },
+      "overall_score": 93,
+      "grade": "A",
+      "feedback": {
+        "elbow_angle": "Elbow angle is ideal for this phase",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm elevation is ideal for this phase \u2014 good arc",
+        "wrist_elbow_vertical": "Wrist stacked above elbow \u2014 clean release axis",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 79.1,
+        "xgb_explanation": "Good form \u2014 main area to refine: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 18.7,
+            "distance": 6.286,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 60.2deg higher than LeBron James at set point",
+              "knee is 47.1deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 18.1,
+            "distance": 6.403,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 55.2deg higher than Giannis Antetokounmpo at set point",
+              "knee is 54.1deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Kevin Durant",
+            "team": "Phoenix Suns",
+            "style": "high release height",
+            "similarity": 18.0,
+            "distance": 6.423,
+            "notes": "Elite shoulder elevation, releases above defenders",
+            "advice": [
+              "elbow is 68.2deg higher than Kevin Durant at set point",
+              "knee is 51.1deg higher than Kevin Durant at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to LeBron James (18.7% match). More elbow flare than optimal \u2014 compensates with power",
+        "knn_best_match": "LeBron James"
+      }
+    },
+    {
+      "side": "left",
+      "phase": "follow_through",
+      "camera_angle": "front",
+      "elbow_angle": 146.92,
+      "knee_angle": 179.79,
+      "shoulder_angle": 79.21,
+      "wrist_elbow_vertical": 43.88,
+      "hip_knee_alignment": 0.0098,
+      "wrist_height_norm": 0.2418,
+      "scores": {
+        "elbow_angle": 91,
+        "knee_angle": 85,
+        "shoulder_angle": 96,
+        "wrist_elbow_vertical": 74,
+        "hip_knee_alignment": 98
+      },
+      "overall_score": 89,
+      "grade": "A",
+      "feedback": {
+        "elbow_angle": "Elbow angle is ideal for this phase",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm elevation is ideal for this phase \u2014 good arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 76.1,
+        "xgb_explanation": "Good form \u2014 main area to refine: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Dirk Nowitzki",
+            "team": "Retired",
+            "style": "one legged fadeaway",
+            "similarity": 17.8,
+            "distance": 7.588,
+            "notes": "Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+            "advice": [
+              "elbow is 48.9deg higher than Dirk Nowitzki at set point",
+              "knee is 34.8deg higher than Dirk Nowitzki at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Kevin Durant",
+            "team": "Phoenix Suns",
+            "style": "high release height",
+            "similarity": 17.0,
+            "distance": 7.775,
+            "notes": "Elite shoulder elevation, releases above defenders",
+            "advice": [
+              "elbow is 54.9deg higher than Kevin Durant at set point",
+              "knee is 51.8deg higher than Kevin Durant at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Reggie Miller",
+            "team": "Retired",
+            "style": "off balance specialist",
+            "similarity": 15.1,
+            "distance": 8.314,
+            "notes": "Unorthodox hip alignment but perfect elbow tracking",
+            "advice": [
+              "elbow is 51.9deg higher than Reggie Miller at set point",
+              "knee is 69.8deg higher than Reggie Miller at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Dirk Nowitzki (17.8% match). Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+        "knn_best_match": "Dirk Nowitzki"
+      }
+    },
+    {
+      "side": "left",
+      "phase": "follow_through",
+      "camera_angle": "front",
+      "elbow_angle": 140.04,
+      "knee_angle": 179.32,
+      "shoulder_angle": 81.29,
+      "wrist_elbow_vertical": 48.66,
+      "hip_knee_alignment": 0.0083,
+      "wrist_height_norm": 0.2505,
+      "scores": {
+        "elbow_angle": 86,
+        "knee_angle": 85,
+        "shoulder_angle": 94,
+        "wrist_elbow_vertical": 66,
+        "hip_knee_alignment": 98
+      },
+      "overall_score": 86,
+      "grade": "B",
+      "feedback": {
+        "elbow_angle": "Elbow angle is ideal for this phase",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm elevation is ideal for this phase \u2014 good arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 74.2,
+        "xgb_explanation": "Good form \u2014 main area to refine: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Dirk Nowitzki",
+            "team": "Retired",
+            "style": "one legged fadeaway",
+            "similarity": 17.4,
+            "distance": 8.738,
+            "notes": "Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+            "advice": [
+              "elbow is 42.0deg higher than Dirk Nowitzki at set point",
+              "knee is 34.3deg higher than Dirk Nowitzki at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Kevin Durant",
+            "team": "Phoenix Suns",
+            "style": "high release height",
+            "similarity": 16.3,
+            "distance": 9.074,
+            "notes": "Elite shoulder elevation, releases above defenders",
+            "advice": [
+              "elbow is 48.0deg higher than Kevin Durant at set point",
+              "knee is 51.3deg higher than Kevin Durant at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Reggie Miller",
+            "team": "Retired",
+            "style": "off balance specialist",
+            "similarity": 15.0,
+            "distance": 9.483,
+            "notes": "Unorthodox hip alignment but perfect elbow tracking",
+            "advice": [
+              "elbow is 45.0deg higher than Reggie Miller at set point",
+              "knee is 69.3deg higher than Reggie Miller at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Dirk Nowitzki (17.4% match). Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+        "knn_best_match": "Dirk Nowitzki"
+      }
+    },
+    {
+      "side": "left",
+      "phase": "follow_through",
+      "camera_angle": "front",
+      "elbow_angle": 137.76,
+      "knee_angle": 177.67,
+      "shoulder_angle": 83.26,
+      "wrist_elbow_vertical": 48.98,
+      "hip_knee_alignment": 0.0062,
+      "wrist_height_norm": 0.2497,
+      "scores": {
+        "elbow_angle": 84,
+        "knee_angle": 87,
+        "shoulder_angle": 92,
+        "wrist_elbow_vertical": 65,
+        "hip_knee_alignment": 98
+      },
+      "overall_score": 85,
+      "grade": "B",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm elevation is ideal for this phase \u2014 good arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 74.1,
+        "xgb_explanation": "Good form \u2014 main area to refine: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Dirk Nowitzki",
+            "team": "Retired",
+            "style": "one legged fadeaway",
+            "similarity": 17.1,
+            "distance": 8.99,
+            "notes": "Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+            "advice": [
+              "elbow is 39.8deg higher than Dirk Nowitzki at set point",
+              "knee is 32.7deg higher than Dirk Nowitzki at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Kevin Durant",
+            "team": "Phoenix Suns",
+            "style": "high release height",
+            "similarity": 16.2,
+            "distance": 9.273,
+            "notes": "Elite shoulder elevation, releases above defenders",
+            "advice": [
+              "elbow is 45.8deg higher than Kevin Durant at set point",
+              "knee is 49.7deg higher than Kevin Durant at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Reggie Miller",
+            "team": "Retired",
+            "style": "off balance specialist",
+            "similarity": 15.0,
+            "distance": 9.666,
+            "notes": "Unorthodox hip alignment but perfect elbow tracking",
+            "advice": [
+              "elbow is 42.8deg higher than Reggie Miller at set point",
+              "knee is 67.7deg higher than Reggie Miller at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Dirk Nowitzki (17.1% match). Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+        "knn_best_match": "Dirk Nowitzki"
+      }
+    },
+    {
+      "side": "left",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 129.96,
+      "knee_angle": 177.31,
+      "shoulder_angle": 89.12,
+      "wrist_elbow_vertical": 49.16,
+      "hip_knee_alignment": 0.0084,
+      "wrist_height_norm": 0.2538,
+      "scores": {
+        "elbow_angle": 46,
+        "knee_angle": 68,
+        "shoulder_angle": 65,
+        "wrist_elbow_vertical": 45,
+        "hip_knee_alignment": 98
+      },
+      "overall_score": 61,
+      "grade": "C",
+      "feedback": {
+        "elbow_angle": "Elbow flaring \u2014 reduces accuracy and arc",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm at max elevation \u2014 normal at follow-through",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 62.3,
+        "xgb_explanation": "Average form \u2014 focus on: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Dirk Nowitzki",
+            "team": "Retired",
+            "style": "one legged fadeaway",
+            "similarity": 21.4,
+            "distance": 9.171,
+            "notes": "Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+            "advice": [
+              "elbow is 32.0deg higher than Dirk Nowitzki at set point",
+              "knee is 32.3deg higher than Dirk Nowitzki at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Kevin Durant",
+            "team": "Phoenix Suns",
+            "style": "high release height",
+            "similarity": 16.8,
+            "distance": 10.611,
+            "notes": "Elite shoulder elevation, releases above defenders",
+            "advice": [
+              "elbow is 38.0deg higher than Kevin Durant at set point",
+              "knee is 49.3deg higher than Kevin Durant at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 15.9,
+            "distance": 10.945,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 30.0deg higher than LeBron James at set point",
+              "knee is 45.3deg higher than LeBron James at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Dirk Nowitzki (21.4% match). Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+        "knn_best_match": "Dirk Nowitzki"
+      }
+    },
+    {
+      "side": "left",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 126.0,
+      "knee_angle": 175.23,
+      "shoulder_angle": 84.04,
+      "wrist_elbow_vertical": 48.04,
+      "hip_knee_alignment": 0.0196,
+      "wrist_height_norm": 0.2598,
+      "scores": {
+        "elbow_angle": 53,
+        "knee_angle": 83,
+        "shoulder_angle": 88,
+        "wrist_elbow_vertical": 46,
+        "hip_knee_alignment": 96
+      },
+      "overall_score": 71,
+      "grade": "C",
+      "feedback": {
+        "elbow_angle": "Elbow flaring \u2014 reduces accuracy and arc",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm elevation is ideal for this phase \u2014 good arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 65.4,
+        "xgb_explanation": "Average form \u2014 focus on: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Dirk Nowitzki",
+            "team": "Retired",
+            "style": "one legged fadeaway",
+            "similarity": 21.8,
+            "distance": 8.395,
+            "notes": "Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+            "advice": [
+              "elbow is 28.0deg higher than Dirk Nowitzki at set point",
+              "knee is 30.2deg higher than Dirk Nowitzki at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "Kevin Durant",
+            "team": "Phoenix Suns",
+            "style": "high release height",
+            "similarity": 17.0,
+            "distance": 9.785,
+            "notes": "Elite shoulder elevation, releases above defenders",
+            "advice": [
+              "elbow is 34.0deg higher than Kevin Durant at set point",
+              "knee is 47.2deg higher than Kevin Durant at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 16.4,
+            "distance": 9.972,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 26.0deg higher than LeBron James at set point",
+              "knee is 43.2deg higher than LeBron James at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Dirk Nowitzki (21.8% match). Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+        "knn_best_match": "Dirk Nowitzki"
+      }
+    },
+    {
+      "side": "left",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 99.83,
+      "knee_angle": 171.53,
+      "shoulder_angle": 60.67,
+      "wrist_elbow_vertical": 50.84,
+      "hip_knee_alignment": 0.0153,
+      "wrist_height_norm": 0.2756,
+      "scores": {
+        "elbow_angle": 93,
+        "knee_angle": 87,
+        "shoulder_angle": 87,
+        "wrist_elbow_vertical": 43,
+        "hip_knee_alignment": 97
+      },
+      "overall_score": 83,
+      "grade": "B",
+      "feedback": {
+        "elbow_angle": "Elbow angle is ideal for this phase",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm elevation is ideal for this phase \u2014 good arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 73.3,
+        "xgb_explanation": "Good form \u2014 main area to refine: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 16.6,
+            "distance": 9.514,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "knee is 46.5deg higher than Giannis Antetokounmpo at set point",
+              "wrist tilt is 30.8deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 16.3,
+            "distance": 9.59,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "knee is 39.5deg higher than LeBron James at set point",
+              "wrist tilt is 34.8deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Dirk Nowitzki",
+            "team": "Retired",
+            "style": "one legged fadeaway",
+            "similarity": 15.8,
+            "distance": 9.773,
+            "notes": "Higher elbow and knee extension \u2014 unique one-legged fadeaway",
+            "advice": [
+              "knee is 26.5deg higher than Dirk Nowitzki at set point",
+              "shoulder is 17.3deg lower than Dirk Nowitzki at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Giannis Antetokounmpo (16.6% match). Developed shooter \u2014 elbow still slightly wide but improving",
+        "knn_best_match": "Giannis Antetokounmpo"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 66.54,
+      "knee_angle": 167.46,
+      "shoulder_angle": 23.07,
+      "wrist_elbow_vertical": 46.53,
+      "hip_knee_alignment": 0.0082,
+      "wrist_height_norm": 0.2935,
+      "scores": {
+        "elbow_angle": 54,
+        "knee_angle": 89,
+        "shoulder_angle": 12,
+        "wrist_elbow_vertical": 48,
+        "hip_knee_alignment": 98
+      },
+      "overall_score": 58,
+      "grade": "D",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 51.0,
+        "xgb_explanation": "Average form \u2014 focus on: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 16.4,
+            "distance": 12.295,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 38.5deg lower than Giannis Antetokounmpo at set point",
+              "knee is 42.5deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 15.5,
+            "distance": 12.694,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 33.5deg lower than LeBron James at set point",
+              "knee is 35.5deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Paul Pierce",
+            "team": "Retired",
+            "style": "shot fake and rise",
+            "similarity": 14.8,
+            "distance": 12.98,
+            "notes": "Slightly unorthodox but effective elbow position",
+            "advice": [
+              "elbow is 29.5deg lower than Paul Pierce at set point",
+              "knee is 51.5deg higher than Paul Pierce at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Giannis Antetokounmpo (16.4% match). Developed shooter \u2014 elbow still slightly wide but improving",
+        "knn_best_match": "Giannis Antetokounmpo"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 58.18,
+      "knee_angle": 171.68,
+      "shoulder_angle": 16.04,
+      "wrist_elbow_vertical": 47.86,
+      "hip_knee_alignment": 0.0041,
+      "wrist_height_norm": 0.3101,
+      "scores": {
+        "elbow_angle": 36,
+        "knee_angle": 86,
+        "shoulder_angle": 0,
+        "wrist_elbow_vertical": 46,
+        "hip_knee_alignment": 99
+      },
+      "overall_score": 49,
+      "grade": "D",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 37.3,
+        "xgb_explanation": "Needs work \u2014 primary issue: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 16.5,
+            "distance": 13.422,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 46.8deg lower than Giannis Antetokounmpo at set point",
+              "knee is 46.7deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 15.5,
+            "distance": 13.874,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 41.8deg lower than LeBron James at set point",
+              "knee is 39.7deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Paul Pierce",
+            "team": "Retired",
+            "style": "shot fake and rise",
+            "similarity": 14.8,
+            "distance": 14.252,
+            "notes": "Slightly unorthodox but effective elbow position",
+            "advice": [
+              "elbow is 37.8deg lower than Paul Pierce at set point",
+              "knee is 55.7deg higher than Paul Pierce at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Giannis Antetokounmpo (16.5% match). Developed shooter \u2014 elbow still slightly wide but improving",
+        "knn_best_match": "Giannis Antetokounmpo"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 41.79,
+      "knee_angle": 172.76,
+      "shoulder_angle": 4.77,
+      "wrist_elbow_vertical": 52.99,
+      "hip_knee_alignment": 0.0223,
+      "wrist_height_norm": 0.3519,
+      "scores": {
+        "elbow_angle": 3,
+        "knee_angle": 86,
+        "shoulder_angle": 0,
+        "wrist_elbow_vertical": 41,
+        "hip_knee_alignment": 95
+      },
+      "overall_score": 38,
+      "grade": "F",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Knee bend is ideal \u2014 legs driving the shot correctly",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 28.1,
+        "xgb_explanation": "Needs work \u2014 primary issue: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 16.7,
+            "distance": 15.472,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 63.2deg lower than Giannis Antetokounmpo at set point",
+              "knee is 47.8deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 15.5,
+            "distance": 16.115,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 58.2deg lower than LeBron James at set point",
+              "knee is 40.8deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Nikola Jokic",
+            "team": "Denver Nuggets",
+            "style": "unorthodox but effective",
+            "similarity": 15.1,
+            "distance": 16.351,
+            "notes": "Unconventional push shot but high release point works",
+            "advice": [
+              "elbow is 66.2deg lower than Nikola Jokic at set point",
+              "knee is 58.8deg higher than Nikola Jokic at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Giannis Antetokounmpo (16.7% match). Developed shooter \u2014 elbow still slightly wide but improving",
+        "knn_best_match": "Giannis Antetokounmpo"
+      }
+    },
+    {
+      "side": "right",
+      "phase": "release",
+      "camera_angle": "front",
+      "elbow_angle": 45.0,
+      "knee_angle": 176.76,
+      "shoulder_angle": 2.79,
+      "wrist_elbow_vertical": 42.2,
+      "hip_knee_alignment": 0.032,
+      "wrist_height_norm": 0.3753,
+      "scores": {
+        "elbow_angle": 10,
+        "knee_angle": 72,
+        "shoulder_angle": 0,
+        "wrist_elbow_vertical": 55,
+        "hip_knee_alignment": 93
+      },
+      "overall_score": 39,
+      "grade": "F",
+      "feedback": {
+        "elbow_angle": "Elbow too collapsed \u2014 will restrict wrist snap",
+        "knee_angle": "Legs too straight \u2014 shot relies on arm strength only",
+        "shoulder_angle": "Arm too low \u2014 raise your elbow higher for better arc",
+        "wrist_elbow_vertical": "Wrist not above elbow \u2014 ball will drift sideways",
+        "hip_knee_alignment": "Good"
+      },
+      "is_shooting": true,
+      "ml": {
+        "xgb_score": 30.9,
+        "xgb_explanation": "Needs work \u2014 primary issue: hip knee align",
+        "xgb_top_factor": "hip knee align",
+        "knn_matches": [
+          {
+            "rank": 1,
+            "name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "style": "improved shooter",
+            "similarity": 16.5,
+            "distance": 14.589,
+            "notes": "Developed shooter \u2014 elbow still slightly wide but improving",
+            "advice": [
+              "elbow is 60.0deg lower than Giannis Antetokounmpo at set point",
+              "knee is 51.8deg higher than Giannis Antetokounmpo at set point"
+            ]
+          },
+          {
+            "rank": 2,
+            "name": "LeBron James",
+            "team": "Los Angeles Lakers",
+            "style": "power form",
+            "similarity": 15.5,
+            "distance": 15.106,
+            "notes": "More elbow flare than optimal \u2014 compensates with power",
+            "advice": [
+              "elbow is 55.0deg lower than LeBron James at set point",
+              "knee is 44.8deg higher than LeBron James at set point"
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "Paul Pierce",
+            "team": "Retired",
+            "style": "shot fake and rise",
+            "similarity": 14.6,
+            "distance": 15.616,
+            "notes": "Slightly unorthodox but effective elbow position",
+            "advice": [
+              "elbow is 51.0deg lower than Paul Pierce at set point",
+              "knee is 60.8deg higher than Paul Pierce at set point"
+            ]
+          }
+        ],
+        "knn_summary": "Your form is most similar to Giannis Antetokounmpo (16.5% match). Developed shooter \u2014 elbow still slightly wide but improving",
+        "knn_best_match": "Giannis Antetokounmpo"
+      }
+    }
+  ]
+}

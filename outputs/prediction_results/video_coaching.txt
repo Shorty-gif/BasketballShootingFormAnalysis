@@ -1,0 +1,17 @@
+Alright, let's break down your shot. The data shows some clear areas for significant improvement, but also a solid foundation to build on. Your average form score of 65.3 indicates a good amount of variability and foundational issues that need addressing.
+
+1.  **Overall Assessment:**
+    You're showing significant inconsistency, particularly in lower body engagement and arm elevation, which impacts your shot's power and arc. The extremely low consistency across elbow (6.5%) and knee (16.1%) angles suggests a lack of a repeatable shooting motion.
+
+2.  **The Single Most Important Thing to Fix RIGHT NOW:**
+    You are shooting almost entirely with your arms due to a severe lack of lower body engagement. Your average knee angle of 160.06 degrees, with only 16.1% consistency in the ideal range (100-130 degrees), shows you're barely bending your knees. The worst frames confirm this, showing nearly locked knees (172.8-177.5 degrees) even during release.
+
+3.  **A Specific Drill or Exercise to Fix It:**
+    Start with **"Chair Shots"** or **"Form Shots with a Dip."** Sit on a low chair or bench (or just focus on a deep starting bend) and shoot, focusing intensely on using your legs to stand up and generate power, driving through your heels. Make sure you feel that deep knee bend (aiming for 100-130 degrees) before every shot.
+
+4.  **Two Secondary Improvements to Work on After the Main Issue is Fixed:**
+    *   **Consistent Elbow & Shoulder Elevation:** Your "Arm too low" issue (11 frames) and very low shoulder angles in your worst shots (2.8-5.4 degrees) mean you're not getting enough arc. Focus on raising that elbow higher, aiming for a consistent shoulder angle in the 45-75 degree range during your set.
+    *   **Wrist-Above-Elbow Alignment:** Your wrist_elbow_vertical average of 42.81 degrees (ideal 0-20) means your wrist is consistently too far below your elbow. This leads to the "Wrist not above elbow" issue (9 frames), causing the ball to drift. Consciously position your wrist directly above or slightly ahead of your elbow for a straighter shot line.
+
+5.  **One Thing the Player is Already Doing Well:**
+    Your hip_knee_alignment is outstanding! At an average of 0.02 degrees with 100% consistency in the ideal range, you have a perfectly stable and aligned lower body, which is a fantastic foundation to build power from once you start engaging those knees more. Keep that alignment locked in!
