@@ -1,0 +1,66 @@
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# ── Virtual environment ───────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── ML model weights ─────────────────────────────────────────────
+# Keep your custom trained weights out of git (too large)
+models/
+runs/
+*.pt
+*.pth
+*.onnx
+*.torchscript
+*.json.xgb
+*.pkl
+
+# ── Dataset ───────────────────────────────────────────────────────
+# Datasets are large — download via Roboflow, don't commit
+dataset/
+*.cache
+
+# ── Outputs ───────────────────────────────────────────────────────
+outputs/annotated_images/
+outputs/annotated_video/
+outputs/prediction_results/
+
+# ── Secrets / API keys ────────────────────────────────────────────
+.env
+.env.*
+secrets.toml
+*.key
+
+# ── Streamlit ─────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── macOS ─────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── VS Code ───────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Jupyter ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Logs & temp ───────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
